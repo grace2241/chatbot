@@ -1,0 +1,85 @@
+html,body{
+    margin: 0;
+        padding: 0;
+    height:100%;
+    width:100%;
+}
+body{
+    background-color: #f2f2f2;
+    font-family:"brandon-grotesque", cursive ,sans-serif;
+    color:white;
+}
+#header{
+    width:100%;
+    height:60px;
+    background-color: #333;
+    box-shadow: 0px 4px 2px #333;
+}
+#header>h1{
+    width:1024px;
+    margin: 0px auto;
+    color:white;
+    padding: 12px;
+}
+#container{
+     width:1024px;
+    margin: 10px auto;
+    background-color:black;
+    border:1px solid #333;
+    height: 500px;
+    overflow: scroll;
+    padding-left: 10px;
+}
+#controls{
+    width:1024px;
+    margin: 0px auto;
+}
+textarea{
+    width:940px;
+    resize: none;
+}
+#but{
+    font-size:25px;
+    position: absolute;
+    margin-left: 5px;
+}
+.username{
+    color:blue;
+    font-weight:bolder;
+    border-radius: 10px;
+     font-size:20px;
+}
+.bot{
+    color:red;
+    font-weight:bolder;
+     font-size:20px;
+
+}
+.curent{
+    background: blue;
+    height:40px;
+}
+.user{
+    float: right;
+    clear: both;
+    background-color: red;
+   // min-width: 40%;
+     border-radius: 10px;
+    margin: 20px;
+     padding-left: 20px;
+     padding-right: 20px;
+    font-size:20px;
+}
+.grass{
+    float: left;
+    clear: both;
+    background-color: blue;
+   // min-width: 40%;
+     border-radius: 10px;
+    margin: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display:none;
+
+    font-size:20px;
+}
